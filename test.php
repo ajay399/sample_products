@@ -1,3 +1,11 @@
+(0) Add file in theme.liquid {% render 'sampleProdHelper' %}
+
+& Check with metafields the app should be on first
+
+{% assign zsSample = shop.metafields.sampleProd.Settings %}
+{% if  zsSample.app_status == '1' %}
+
+
 (1) Hide + & - Button in the /cart page
 Dawn theme file name : main-cart-items.liquid
 Code : 
