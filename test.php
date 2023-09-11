@@ -21,6 +21,8 @@ Code :
 
 window.cartPageSelector = document.querySelector(".cart__ctas");
 window.prodPageSelector = document.querySelector(".product-form__buttons"); 
+window.pMsgProductSelector = document.querySelector(".product-form__buttons");   
+window.pMsgCartSelector = document.querySelector(".cart__ctas");   
 
 
 (3) Currency Variable
