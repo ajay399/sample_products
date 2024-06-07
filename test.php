@@ -1,3 +1,10 @@
+theme.liquid sample product theme file security
+
+{% if product.type == "SAMPLE PRODUCT" %}
+            <script>window.location.href = `https://`+Shopify.shop; </script>
+     {% endif %}
+
+
 (0) Add file in theme.liquid {% render 'sampleProdHelper' %}
 
 & Check with metafields the app should be on first
